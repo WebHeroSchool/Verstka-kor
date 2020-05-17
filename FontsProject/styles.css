@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Pattaya&display=swap');
+
+* {
+  font-family: 'Kelly Slab', cursive;
+}
+
+.header__title {
+  font-family: 'Pattaya', sans-serif;
+  background: white;
+  box-shadow: 5px 5px 5px 5px silver;
+  opacity: 0.7;
+  text-align: center;
+}
+
+#main {
+  background-image: url(https://i.pinimg.com/originals/fb/70/d6/fb70d6d58a5eef4885b2793d04d1e859.jpg);
+  background-size: cover;
+}
+
+article {
+  align-content: flex-start;
+  border-left: 2px double;
+  border-left-color: blue;
+  padding-left: 10px;
+}
+
+section {
+  align-content: flex-end;
+  border-right: 2px double red;
+  padding-right: 10px;
+}
+
+h2 {
+  text-decoration: underline grey;
+}
+
+p {
+  font-size: 110%;
+  text-align: justify;
+}
+
+span[letter] {
+  color: purple;
+  font-size: 200%;
+  font-family: serif;
+  position: relative;
+  top: 2px;
+}
